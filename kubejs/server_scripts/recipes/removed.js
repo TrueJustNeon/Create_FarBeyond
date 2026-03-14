@@ -1,0 +1,78 @@
+ServerEvents.recipes(event => {
+ // Sequenced
+	    event.remove({id: 'create:sequenced_assembly/precision_mechanism'})
+	    event.remove({id: 'create_factory_logistics:sequenced_assembly/fluid_mechanism'})
+ // Mixing
+	    event.remove({id: 'create:mixing/andesite_alloy_from_zinc'})
+	    event.remove({id: 'create:mixing/andesite_alloy'})
+ // Crafting
+// ## Create
+	    event.remove({id: 'create:crafting/materials/andesite_alloy'}) // These are just in case ^^
+	    event.remove({id: 'create:crafting/materials/andesite_alloy_from_zinc'})
+	    event.remove({id: 'create:crafting/kinetics/brass_hand'})
+	    event.remove({id: 'create_things_and_misc:radar_craft'})
+		// EDITED
+	    event.remove({id: 'create:crafting/kinetics/empty_blaze_burner'})
+	    event.remove({id: 'create:crafting/kinetics/belt_connector'})
+	    event.remove({id: 'thermal:rubber_from_vine'})
+	    event.remove({id: 'mekanism:control_circuit/ultimate'})
+	    event.remove({id: 'mekanism:control_circuit/elite'})
+	    event.remove({id: 'mekanism:control_circuit/advanced'})
+	    event.remove({id: 'mekanism:control_circuit/basic'})
+	    event.remove({id: 'mekanism:metallurgic_infusing/alloy/infused'})
+		// REMOVED
+	    event.remove({id: 'thermal:rubber_from_dandelion'})
+		event.remove({id: 'thermal:rubber_3'})
+	    event.remove({id: 'thermal:devices/tree_extractor/tree_extractor_jungle'})
+	    event.remove({id: 'thermal:fire_charge/enderium_ingot_2'})
+	    event.remove({id: 'thermal:enderium_dust_2'})
+	    event.remove({id: 'thermal:fire_charge/electrum_ingot_2'})
+	    event.remove({id: 'thermal:electrum_dust_2'})
+	    event.remove({id: 'thermal:fire_charge/bronze_ingot_4'})
+	    event.remove({id: 'thermal:bronze_dust_4'})
+	    event.remove({id: 'thermal:fire_charge/signalum_ingot_4'})
+	    event.remove({id: 'thermal:signalum_dust_4'})
+	    event.remove({id: 'thermal:fire_charge/lumium_ingot_4'})
+		event.remove({ input: 'thermal:press_coin_die' });
+	    event.remove({id: 'thermal:lumium_dust_4'})
+	    event.remove({id: 'thermal:fire_charge/invar_ingot_3'})
+	    event.remove({id: 'thermal:invar_dust_3'})
+	    event.remove({id: 'thermal:fire_charge/constantan_ingot_2'})
+	    event.remove({id: 'thermal:constantan_dust_4'})
+		// BACKPACK EDITED
+	    event.remove({id: 'sophisticatedbackpacks:backpack'})
+	    event.remove({id: 'sophisticatedbackpacks:iron_backpack_from_copper'})
+	    event.remove({id: 'sophisticatedbackpacks:copper_backpack'})
+	    event.remove({id: 'sophisticatedbackpacks:iron_backpack'})
+	    event.remove({id: 'sophisticatedbackpacks:gold_backpack'})		
+	    event.remove({id: 'sophisticatedbackpacks:diamond_backpack'})
+		// CREATE EDITED
+  	    event.remove({id: 'create:crafting/kinetics/deployer'})
+ 	    event.remove({id: 'create:crafting/kinetics/mechanical_press'})
+ 	    event.remove({id: 'create:crafting/kinetics/super_glue'})
+  	    event.remove({id: 'create:splashing/sand'})
+	    event.remove({id: 'create:crafting/kinetics/mechanical_saw'})
+	    event.remove({id: 'create:crafting/kinetics/mechanical_drill'})
+	    event.remove({id: 'create:crafting/kinetics/mechanical_mixer'})
+	    event.remove({id: 'create:crafting/kinetics/encased_fan'})
+	    event.remove({id: 'create:crafting/kinetics/spout'})
+	    event.remove({id: 'create:crafting/kinetics/steam_engine'}) 
+ 	    event.remove({id: 'create:crafting/logistics/andesite_funnel'})
+	    event.remove({id: 'create:crafting/logistics/andesite_tunnel'})
+ 	    event.remove({id: 'create:crafting/logistics/brass_tunnel'})
+	    event.remove({id: 'create:crafting/logistics/brass_funnel'})
+	    event.remove({id: 'create:crafting/materials/rose_quartz'})
+	    event.remove({id: 'create:crafting/kinetics/fluid_pipe_vertical'})
+	    event.remove({id: 'create:crafting/kinetics/fluid_pipe'})
+	    event.remove({id: 'create:crafting/kinetics/mechanical_pump'})
+	    event.remove({id: 'sliceanddice:slicer'})
+	    event.remove({id: 'vintage:craft/belt_grinder'})
+	    event.remove({id: 'vintage:craft/spring_coiling_machine'})
+	    event.remove({id: 'powergrid:crafting/plotter'})
+		event.remove({id: 'craete:crafting/kinetics/chain_conveyor'})
+
+		// MEKANISM MACHINES
+		event.remove({id: 'mekanism:metallurgic_infuser'})
+		event.remove({id: 'mekanismgenerators:generator/heat'})
+})
+
