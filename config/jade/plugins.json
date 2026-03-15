@@ -56,6 +56,16 @@
     "show_tree_block_counts": true,
     "show_num_chops_remaining": true
   },
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
   "supplementaries": {
     "hat_stand": true
   },
@@ -66,5 +76,8 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "corpse": {
+    "corpse": true
   }
 }

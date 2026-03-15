@@ -1,8 +1,8 @@
 // Assembly, smithing, etc goes here.
 ServerEvents.recipes(event => {
   event.shaped('kubejs:andesite_compound', [
-    'KKK',
-    'AAA',
+    'KA ',
+    'AK ',
     '   '
   ], {
     K: 'kubejs:kelp_brick',

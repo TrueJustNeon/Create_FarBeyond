@@ -7,16 +7,51 @@
 	id: "1A7DC6703F0E3776"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "7E18411A0564F8E2"
-		tasks: [{
-			id: "2BAB677A18EB43EC"
-			max_input: 1000L
-			type: "forge_energy"
-			value: 241L
-		}]
-		x: -1.5d
-		y: -1.5d
-	}]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "3E580B37558EFD90"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				id: "5BB797AAB55854C7"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				disable_toast: true
+				id: "5252A7C92036DE45"
+				item: { Count: 64, id: "thermal:silver_coin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "5363BEC0A3471501"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				count: 64
+				id: "5665676737160522"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "417806B6DF5C395B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+	]
 	title: "prov12"
 }
