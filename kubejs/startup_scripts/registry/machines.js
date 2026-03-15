@@ -9,10 +9,15 @@ StartupEvents.registry('block', event => {
         .displayName(name + ' Machine')
         .notSolid()
         .renderType(layer)
+        .requiresTool(true) // Requires a tool or it won't drop (see tags below)
+        .tagBlock('minecraft:mineable/axe') //can be mined faster with an axe
+        .tagBlock('minecraft:mineable/pickaxe') // or a pickaxe
+        .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
     }
 
     machine('Andesite', "solid")
     machine('Zinc', "cutout")
     machine('Copper', "cutout")
     machine('Brass', "solid")
+    
 })
