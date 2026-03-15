@@ -1,3 +1,9 @@
 ServerEvents.recipes(event => {
-  event.recipes.create.compacting([Fluid.of('thermal:latex', 250)], [Item.of('thermal:rubber', 1)])
+  event.recipes.create.compacting(
+    [
+            Item.of('thermal:rubber', 1) // Output
+    ],
+     [
+      Fluid.of('thermal:latex', 250) // input
+    ])
 })
