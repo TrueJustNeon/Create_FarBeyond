@@ -1,7 +1,6 @@
 let MOD = (domain, id, x) => (x ? `${x}x ` : "") + (id.startsWith('#') ? '#' : "") + domain + ":" + id.replace('#', '')
 let KJ = (id, x) => MOD("kubejs", id, x)
 let CR = (id, x) => MOD("create", id, x)
-let MK = (id, x) => MOD("mekanism", id, x)
 
 ServerEvents.recipes(event => {
   const t = KJ('incomplete_plastic_mechanism')
@@ -10,7 +9,7 @@ ServerEvents.recipes(event => {
   ], CR('precision_mechanism'), [
     event.recipes.createDeploying(t, [t, 'mekanism:hdpe_sheet']), // Deploying
     event.recipes.createDeploying(t, [t, 'mekanism:alloy_atomic']), // Deploying
-    event.recipes.createDeploying(t, [t, 'create_electron_tube']), // Deploying
+    event.recipes.createDeploying(t, [t, 'create:electron_tube']), // Deploying
     event.recipes.create.pressing(t, t), // Press
     event.recipes.createDeploying(t, [t, 'mekanism:hdpe_sheet']), // Deploying
   ]).transitionalItem(t).loops(2)
