@@ -81,6 +81,7 @@ ServerEvents.recipes(event => {
 		event.remove({id: 'create:crafting/kinetics/speedometer'})
 		event.remove({id: 'create:crafting/kinetics/contraption_controls'})
 		event.remove({id: 'createaddition:crafting/portable_energy_interface'})
+		event.remove({id: 'createaddition:crafting/rolling_mill'})
 		event.remove({id: 'create:crafting/kinetics/portable_storage_interface'})
 		event.remove({id: 'create:crafting/logistics/packager'})
 
@@ -135,5 +136,44 @@ ServerEvents.recipes(event => {
 	    event.remove({id: 'mekanism:control_circuit/advanced'})
 	    event.remove({id: 'mekanism:control_circuit/basic'})
 	    event.remove({id: 'mekanism:metallurgic_infusing/alloy/infused'})
-})
 
+		// THERMAL DYNAMOS
+		event.remove({id: 'thermal:dynamo_stirling' })
+		event.remove({id: 'thermal:dynamo_compression' })
+		event.remove({id: 'thermal:dynamo_magmatic' })
+		event.remove({id: 'thermal:dynamo_numismatic' })
+		event.remove({id: 'thermal:dynamo_gourmand' })
+		event.remove({id: 'thermal:dynamo_lapidary' })
+		event.remove({id: 'thermal:dynamo_disenchantment' })
+
+		// THERMAL MACHINES
+		event.remove({id: 'thermal:machine_smelter' })
+		event.remove({id: 'thermal:machine_furnace' })
+		event.remove({id: 'thermal:machine_sawmill' })
+		event.remove({id: 'thermal:machine_pulverizer' })
+		event.remove({id: 'thermal:machine_smelter' })
+		event.remove({id: 'thermal:machine_insolator'})
+		event.remove({id: 'thermal:machine_centrifuge'})
+		event.remove({id: 'thermal:machine_press'})
+		event.remove({id: 'thermal:machine_crucible'})
+		event.remove({id: 'thermal:machine_chiller'})
+		event.remove({id: 'thermal:machine_refinery'})
+		event.remove({id: 'thermal:machine_pyrolyzer'})
+		event.remove({id: 'thermal:machine_bottler'})
+		event.remove({id: 'thermal:machine_brewer'})
+		event.remove({id: 'thermal:machine_crystallizer'})
+		event.remove({id: 'thermal:machine_crafter'})
+
+		// THERMAL DEVICES
+		event.remove({id: 'thermal:device_tree_extractor' })
+		event.remove({id: 'thermal:device_fisher' })
+		event.remove({id: 'thermal:device_composter' })
+		event.remove({id: 'thermal:device_water_gen' })
+		event.remove({id: 'thermal:device_rock_gen' })
+		event.remove({id: 'thermal:device_collector' })
+		event.remove({id: 'thermal:device_xp_condenser' })
+		event.remove({id: 'thermal:device_nullifier' })
+		event.remove({id: 'thermal:device_potion_diffuser' })
+		event.remove({id: 'thermal:tinker_bench' })
+		
+})
