@@ -11,4 +11,8 @@ mechanism('Andesite') // Create Tier
 // Between = Copper Mechanism (fluid_mechanism)
 mechanism('Plastic') // Mekanism Tier
 // Between = Brass Mechanism (precision_mechanism)
+mechanism('Steel') // Ad Astra tier (if rocket then 1 tier)
+mechanism('Desh') // Ad Astra Rockets 2 tier
+mechanism('Ostrum') // Ad Astra Rockets 3 tier
+mechanism('Calorite') // Ad Astra Rocket 4 tier
 })

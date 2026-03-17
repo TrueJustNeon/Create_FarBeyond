@@ -175,5 +175,45 @@ ServerEvents.recipes(event => {
 		event.remove({id: 'thermal:device_nullifier' })
 		event.remove({id: 'thermal:device_potion_diffuser' })
 		event.remove({id: 'thermal:tinker_bench' })
+
+		// AD ASTRA ITEMS
+		event.remove({id: 'ad_astra:alloying/steel_ingot_from_alloying_iron_ingot_and_coals'})
+		event.remove({id: 'ad_astra:photovoltaic_etrium_cell'})
+
+		// AD ASTRA MACHINES
+		event.remove({id: 'ad_astra:etrionic_blast_furnace'})
+		event.remove({id: 'ad_astra:oxygen_loader'})
+		event.remove({id: 'ad_astra:fuel_refinery'})
+		event.remove({id: 'ad_astra:compressor'})
+		event.remove({id: 'ad_astra:water_pump'})
+		event.remove({id: 'ad_astra:oxygen_distributor'})
+		event.remove({id: 'ad_astra_giselle_addon:crafting/fuel_loader'})
+		event.remove({id: 'ad_astra_giselle_addon:crafting/rocket_sensor'})
+		event.remove({id: 'ad_astra:cryo_freezer'})
+		event.remove({id: 'ad_astra:oxygen_sensor'})
+		event.remove({id: 'ad_astra:nasa_workbench'})
+
+		// AD ASTRA GENERATORS
+		event.remove({id: 'ad_astra:solar_panel'})
+		event.remove({id: 'ad_astra:coal_generator'})
+
+		// AD ASTRA MOUNTS
+		event.remove({id: 'ad_astra:nasa_workbench/tier_4_rocket_from_nasa_workbench'})
+		event.remove({id: 'ad_astra:nasa_workbench/tier_3_rocket_from_nasa_workbench'})
+		event.remove({id: 'ad_astra:nasa_workbench/tier_2_rocket_from_nasa_workbench'})
+		event.remove({id: 'ad_astra:nasa_workbench/tier_1_rocket_from_nasa_workbench'})
+		event.remove({id: 'ad_astra:tier_1_rover'})
+
+		// AD ASTRA NETHERITE SPACE SUIT
+		event.remove({id: 'ad_astra:netherite_space_helmet'})
+		event.remove({id: 'ad_astra:netherite_space_suit'})
+		event.remove({id: 'ad_astra:netherite_space_pants'})
+		event.remove({id: 'ad_astra:netherite_space_boots'})
+		
+		// AD ASTRA SPACE SUIT
+		event.remove({id: 'ad_astra:space_helmet'})
+		event.remove({id: 'ad_astra:space_suit'})
+		event.remove({id: 'ad_astra:space_pants'})
+		event.remove({id: 'ad_astra:space_boots'})
 		
 })

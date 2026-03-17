@@ -4,7 +4,9 @@
 	"parent": "create:block/large_wheels",
 	"texture_size": [64, 64],
 	"textures": {
-		"8": "kubejs:block/brass_machine"
+		"8": "kubejs:block/brass_machine",
+		"particle": "kubejs:block/brass_machine"
+		
 	},
 	"elements": [
 		{

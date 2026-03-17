@@ -4,7 +4,7 @@ StartupEvents.registry('block', event => {
         let id = name.toLowerCase()
         event.create(id + '_machine')
         .model('kubejs:block/' + id + '_machine')
-        .material('lantern')
+        .soundType('lantern')
         .hardness(3.0)
         .displayName(name + ' Machine')
         .notSolid()
@@ -19,5 +19,5 @@ StartupEvents.registry('block', event => {
     machine('Zinc', "cutout")
     machine('Copper', "cutout")
     machine('Brass', "solid")
-    
+    machine('Steel', "solid")    
 })
