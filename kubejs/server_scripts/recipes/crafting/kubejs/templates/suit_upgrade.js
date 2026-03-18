@@ -1,6 +1,6 @@
 // Assembly, smithing, etc goes here.
 ServerEvents.recipes(event => {
-  event.shaped('kubejs:backpack_upgrade', [
+  event.shaped('kubejs:suit_upgrade', [
     'SLH',
     'LAL',
     'CCC'
