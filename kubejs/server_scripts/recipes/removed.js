@@ -96,6 +96,15 @@ ServerEvents.recipes(event => {
 	    event.remove({id: 'create_things_and_misc:sprinkler_craft'})
 	    event.remove({id: 'create_factory_logistics:jar_packager'})
 
+		// CREATE TRAINS
+		event.remove({id: 'create:crafting/kinetics/train_trapdoor'})
+		event.remove({id: 'create:crafting/kinetics/train_door'})
+		event.remove({id: 'create:crafting/kinetics/controls'})
+		event.remove({id: 'create:crafting/kinetics/track_observer'})
+		event.remove({id: 'create:crafting/kinetics/track_observer_from_other_plates'})
+		event.remove({id: 'create:crafting/kinetics/track_signal'})
+		event.remove({id: 'create:crafting/kinetics/track_station'})
+
 		// CREATE RECIPES - WASHING
   	    event.remove({id: 'create:splashing/sand'})
 

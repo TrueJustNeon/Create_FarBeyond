@@ -15,9 +15,10 @@ StartupEvents.registry('block', event => {
         .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
     }
 
-    machine('Andesite', "solid")
-    machine('Zinc', "cutout")
-    machine('Copper', "cutout")
-    machine('Brass', "solid")
-    machine('Steel', "solid")    
+    machine('Andesite', "cutout") // Create
+    machine('Zinc', "cutout") // Thermal/Mekanism
+    machine('Copper', "cutout") // Create
+    machine('Brass', "solid") // Create
+    machine('Sturdy', "solid") // Craete Trains
+    machine('Steel', "cutout") // Ad Astra+
 })

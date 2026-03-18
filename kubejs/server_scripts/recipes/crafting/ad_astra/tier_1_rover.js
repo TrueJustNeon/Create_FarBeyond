@@ -1,17 +1,16 @@
 // Assembly, smithing, etc goes here.
 ServerEvents.recipes(event => {
-  event.shaped('ad_astr:tier_1_rover', [
+  event.shaped('ad_astra:tier_1_rover', [
     'BRS',
     'OME',
     'WPW'
   ], {
-    M: 'kubejs:desh_engine',
+    M: 'kubejs:desh_mechanism',
     W: 'ad_astra:wheel',
     O: 'ad_astra:large_gas_tank',
     S: '#ad_astra:steel_rods',
     S: 'ad_astra:desh_block',
     E: 'ad_astra:desh_engine',
     R: 'ad_astra:radio'
-
 })
 })

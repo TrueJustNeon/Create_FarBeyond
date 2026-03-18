@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.recieps.createMechanicalCrafting('ad_astra:tier_1_rocket', [
+    event.recipes.createMechanicalCrafting('ad_astra:tier_1_rocket', [
         '   N   ',
         '  BBB  ',
         '  BCB  ',
