@@ -14,5 +14,5 @@ mechanism('Plastic') // Mekanism Tier
 mechanism('Steel') // Ad Astra tier (if rocket then 1 tier)
 mechanism('Desh') // Ad Astra Rockets 2 tier
 mechanism('Ostrum') // Ad Astra Rockets 3 tier
-mechanism('Calorite') // Ad Astra Rocket 4 tier
+mechanism('Calorite') // Ad Astra Rockets 4 tier
 })
