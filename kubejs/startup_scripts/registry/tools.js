@@ -6,7 +6,7 @@ ItemEvents.toolTierRegistry(event => {
 });
 
 StartupEvents.registry('item', event => {
-    let pickaxetype = (name) => {
+    let hammer_3d = (name) => {
         let id = name.toLowerCase()
         event.create(id, 'pickaxe')
         .tier('tool')
@@ -24,6 +24,6 @@ StartupEvents.registry('item', event => {
         
     }
 misc('Screwdriver')
-pickaxetype('Hammer')
+hammer_3d('Hammer')
 
 })

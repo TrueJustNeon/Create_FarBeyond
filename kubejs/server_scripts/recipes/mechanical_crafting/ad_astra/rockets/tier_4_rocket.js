@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         F: 'ad_astra:rocket_fin',
         E: 'ad_astra:calorite_engine',
         T: 'ad_astra:calorite_tank',
-        B: 'ad_astra:calorite_block',
+        B: 'kubejs:compressed_calorite_sheet',
         C: 'ad_astra:vent',
         S: '#create:seats',
         G: '#forge:glass',

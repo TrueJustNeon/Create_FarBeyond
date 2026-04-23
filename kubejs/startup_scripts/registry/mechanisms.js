@@ -8,9 +8,9 @@ StartupEvents.registry('item', event => {
     }
 
 mechanism('Andesite') // Create Tier
-// Between = Copper Mechanism (fluid_mechanism)
+// Between = Copper Mechanism (create_factory_logistics:fluid_mechanism)
 mechanism('Plastic') // Mekanism Tier
-// Between = Brass Mechanism (precision_mechanism)
+// Between = Brass Mechanism (create:precision_mechanism)
 mechanism('Steel') // Ad Astra tier (if rocket then 1 tier)
 mechanism('Desh') // Ad Astra Rockets 2 tier
 mechanism('Ostrum') // Ad Astra Rockets 3 tier

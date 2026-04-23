@@ -18,7 +18,7 @@ StartupEvents.registry('block', event => {
     machine('Andesite', "cutout") // Create
     machine('Zinc', "cutout") // Thermal/Mekanism
     machine('Copper', "cutout") // Create
-    machine('Brass', "solid") // Create
-    machine('Sturdy', "cutout") // Create Trains
+    machine('Brass', "cutout") // Create
+    machine('Sturdy', "cutout") // Create Trains Tier
     machine('Steel', "cutout") // Ad Astra+
 })

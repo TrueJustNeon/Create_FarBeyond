@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         F: 'ad_astra:rocket_fin',
         E: 'ad_astra:steel_engine',
         T: 'ad_astra:steel_tank',
-        B: '#forge:storage_blocks/steel',
+        B: 'kubejs:compressed_steel_sheet',
         C: 'ad_astra:vent',
         S: '#create:seats',
         G: '#forge:glass',

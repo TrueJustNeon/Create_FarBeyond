@@ -225,4 +225,7 @@ ServerEvents.recipes(event => {
 		event.remove({id: 'ad_astra:space_pants'})
 		event.remove({id: 'ad_astra:space_boots'})
 		
+		//  AD ASTRA: ❌
+		//  REMOVE ASTRA: ✅
+		//  🗣️🔥🔥🔥
 })
