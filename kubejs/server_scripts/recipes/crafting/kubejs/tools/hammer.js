@@ -6,6 +6,6 @@ ServerEvents.recipes(event => {
     ' W '
   ], {
     W: 'minecraft:stick',
-    L: 'minecraft:iron_ingot'
+    L: '#forge:ingots/steel'
 })
 })

@@ -1,27 +1,28 @@
 ItemEvents.toolTierRegistry(event => {
-    event.add('tool', tier => {
+    event.add('modpack_steel_tool', tier => {
         tier.uses = 250
-        tier.repairIngredient = '#forge:ingots/iron'
+        tier.repairIngredient = '#forge:ingots/steel'
     })
 });
 
 StartupEvents.registry('item', event => {
+    // Functions
+
     let hammer_3d = (name) => {
         let id = name.toLowerCase()
         event.create(id, 'pickaxe')
-        .tier('tool')
-        .texture("kubejs:item/" + id)
+        .tier('modpack_steel_tool')
         .model("kubejs:item/" + id)
     }
     
-    let misc = (name) => {
+    let axe_type = (name) => {
         let id = name.toLowerCase()
         event.create(id, 'axe')
-        .tier('tool')
-        .texture("kubejs:item/" + id)
+        .tier('modpack_steel_tool')
         
     }
-misc('Screwdriver')
+
+axe_type('Screwdriver')
 hammer_3d('Hammer')
 
 })

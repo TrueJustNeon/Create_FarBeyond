@@ -1,20 +1,51 @@
 StartupEvents.registry('item', event => {
+    // Functions
+    let compressed_sheet = (name) => {
+        let id = name.toLowerCase()
+        event.create("compressed_" + id + "_sheet")
+    }
+
+    let brick = (name) => {
+        let id = name.toLowerCase()
+        event.create(id + "_brick")
+    }
+
+    let item = (name) => {
+        let id = name.toLowerCase()
+        event.create(id)
+    }
+
+    let upgrade = (name, tooltip) => {
+        let id = name.toLowerCase()
+        event.create(id + "_upgrade")
+        .tooltip(tooltip)
+    }
+    
+    let compound = (name) => {
+        let id = name.toLowerCase()
+        event.create(id + "_compound")
+    }
 
 	// Main Items
-    event.create('sap')
-    event.create('kelp_compound')
-    event.create('kelp_brick')
-    event.create('andesite_compound')
+    item("Sap")
 
-    // Smithing Templates
-    event.create('backpack_upgrade').tooltip("Used for Backpacks.")
-    event.create('suit_upgrade').tooltip("Used for space suits.")
+    // Bricks
+    brick("Kelp")
+    
+    // Compounds
+    compound("Kelp")
+    compound("Andesite")
 
-    // Compressed Sheets (Netherite but not really?)
-    event.create('compressed_copper_sheet') // Backpack Upgrade Copper
-    event.create('compressed_iron_sheet') // Backpack Upgrade Iron
-    event.create('compressed_gold_sheet') // Backpack Upgrade Gold
-    event.create('compressed_calorite_sheet') // Jet Suits
-    event.create('compressed_ostrum_sheet') // Netherite Suits
-    event.create('compressed_steel_sheet') // Space Suits
+    // Upgrades
+    upgrade("Suit", "Used for Space Suits.")
+    upgrade("Backpack", "Used for Backpacks.")
+
+    // Compressed Sheets
+    compressed_sheet("Copper") // Copper Backpack
+    compressed_sheet("Iron") // Iron Backpack
+    compressed_sheet("Gold") // Gold Backpack
+    compressed_sheet("Calorite") // Jet Suits
+    compressed_sheet("Ostrum") // Netherite Suits
+    compressed_sheet("Steel") // Space Suits
+
 })

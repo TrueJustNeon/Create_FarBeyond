@@ -6,6 +6,6 @@ ServerEvents.recipes(event => {
     '  W'
   ], {
     W: 'create:andesite_alloy',
-    L: 'minecraft:iron_ingot'
+    L: '#forge:ingots/steel'
 })
 })
