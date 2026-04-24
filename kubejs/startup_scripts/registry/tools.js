@@ -8,21 +8,21 @@ ItemEvents.toolTierRegistry(event => {
 StartupEvents.registry('item', event => {
     // Functions
 
-    let hammer_3d = (name) => {
+    let pickaxe_type_3d = (name) => {
         let id = name.toLowerCase()
         event.create(id, 'pickaxe')
         .tier('modpack_steel_tool')
         .model("kubejs:item/" + id)
     }
     
-    let axe_type = (name) => {
+    let axe_type_2d = (name) => {
         let id = name.toLowerCase()
         event.create(id, 'axe')
         .tier('modpack_steel_tool')
         
     }
 
-axe_type('Screwdriver')
-hammer_3d('Hammer')
+axe_type_2d('Screwdriver')
+pickaxe_type_3d('Hammer')
 
 })
