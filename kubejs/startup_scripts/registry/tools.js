@@ -11,7 +11,6 @@ StartupEvents.registry('item', event => {
         event.create(id, 'pickaxe')
         .tier('tool')
         .texture("kubejs:item/" + id)
-        .displayName(name)
         .model("kubejs:item/" + id)
     }
     
@@ -20,7 +19,6 @@ StartupEvents.registry('item', event => {
         event.create(id, 'axe')
         .tier('tool')
         .texture("kubejs:item/" + id)
-        .displayName(name)
         
     }
 misc('Screwdriver')

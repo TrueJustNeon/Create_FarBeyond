@@ -12,6 +12,29 @@
    "item.kubejs.compressed_gold_sheet": "Gold Mega-Sheet",
    "item.kubejs.compressed_calorite_sheet": "Calorite Mega-Sheet",
    "item.kubejs.compressed_ostrum_sheet": "Ostrum Mega-Sheet",
-   "item.kubejs.compressed_steel_sheet": "Steel Mega-Sheet"
+   "item.kubejs.compressed_steel_sheet": "Steel Mega-Sheet",
 
+   "item.kubejs.andesite_mechanism": "Andesite Mechanism",
+   "item.kubejs.plastic_mechanism": "Plastic Mechanism",
+   "item.kubejs.steel_mechanism": "Steel Mechanism",
+   "item.kubejs.desh_mechanism": "Desh Mechanism",
+   "item.kubejs.ostrum_mechanism": "Ostrum Mechanism",
+   "item.kubejs.calorite_mechanism": "Calorite Mechanism",
+   
+   "item.kubejs.incomplete_andesite_mechanism": "Incomplete Andesite Mechanism",
+   "item.kubejs.incomplete_plastic_mechanism": "Incomplete Plastic Mechanism",
+   "item.kubejs.incomplete_steel_mechanism": "Incomplete Steel Mechanism",
+   "item.kubejs.incomplete_desh_mechanism": "Incomplete Desh Mechanism",
+   "item.kubejs.incomplete_ostrum_mechanism": "Incomplete Ostrum Mechanism",
+   "item.kubejs.incomplete_calorite_mechanism": "Incomplete Calorite Mechanism",
+
+   "item.kubejs.screwdriver": "Screwdriver",
+   "item.kubejs.hammer": "Hammer",
+
+   "block.kubejs.andesite_machine": "Andesite Machine",
+   "block.kubejs.zinc_machine": "Zinc Machine",
+   "block.kubejs.copper_machine": "Copper Machine",
+   "block.kubejs.brass_machine": "Brass Machine",
+   "block.kubejs.sturdy_machine": "Sturdy Machine",   
+   "block.kubejs.steel_machine": "Steel Machine"
 }

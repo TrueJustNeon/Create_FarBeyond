@@ -1,0 +1,40 @@
+{
+   "item.kubejs.sap": "Savia",
+   "item.kubejs.kelp_compound": "Compuesto de algas",
+   "item.kubejs.kelp_brick": "Ladrillo de alga",
+   "item.kubejs.andesite_compound": "Compuesto de andesita",
+
+   "item.kubejs.backpack_upgrade": "Mejora de mochilas",
+   "item.kubejs.suit_upgrade": "Mejora de trajes",
+
+   "item.kubejs.compressed_copper_sheet": "Cobre comprimido",
+   "item.kubejs.compressed_iron_sheet": "Hierro comprimido",
+   "item.kubejs.compressed_gold_sheet": "Oro comprimido",
+   "item.kubejs.compressed_calorite_sheet": "Calorita comprimida",
+   "item.kubejs.compressed_ostrum_sheet": "Ostrum comprimido",
+   "item.kubejs.compressed_steel_sheet": "Acero comprimido",
+
+   "item.kubejs.andesite_mechanism": "Mecanismo de andesite",
+   "item.kubejs.plastic_mechanism": "Mecanismo de plastico",
+   "item.kubejs.steel_mechanism": "Mecanismo de acero",
+   "item.kubejs.desh_mechanism": "Mecanismo de Desh",
+   "item.kubejs.ostrum_mechanism": "Mecanismo de Ostrum",
+   "item.kubejs.calorite_mechanism": "Mecanismo de Calorita",
+   
+   "item.kubejs.incomplete_andesite_mechanism": "Mecanismo de andesita incompleto",
+   "item.kubejs.incomplete_plastic_mechanism": "Mecanismo de plastico incompleto",
+   "item.kubejs.incomplete_steel_mechanism": "Mecanismo de acero incompleto",
+   "item.kubejs.incomplete_desh_mechanism": "Mecanismo de desh incompleto",
+   "item.kubejs.incomplete_ostrum_mechanism": "Mecanismo de ostrum incompleto",
+   "item.kubejs.incomplete_calorite_mechanism": "Mecanismo de calorita incompleto",
+
+   "item.kubejs.screwdriver": "Destornillador",
+   "item.kubejs.hammer": "Martillo",
+
+   "block.kubejs.andesite_machine": "Maquina de andesita",
+   "block.kubejs.zinc_machine": "Maquina de cinc",
+   "block.kubejs.copper_machine": "Maquina de cobre",
+   "block.kubejs.brass_machine": "Maquina de latón",
+   "block.kubejs.sturdy_machine": "Maquina fuerte",   
+   "block.kubejs.steel_machine": "Maquina de acero"
+}
