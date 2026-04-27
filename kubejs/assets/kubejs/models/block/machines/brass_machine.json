@@ -1,7 +1,6 @@
 {
 	"format_version": "1.9.0",
-	"credit": "Made with Blockbench",
-	"parent": "create:block/large_wheels",
+	"credit": "Made by Neon, Textures by Simibubi",
 	"texture_size": [64, 64],
 	"textures": {
 		"7": "kubejs:block/brass_machine",

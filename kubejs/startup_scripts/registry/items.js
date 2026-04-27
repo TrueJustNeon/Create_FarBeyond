@@ -2,12 +2,16 @@ StartupEvents.registry('item', event => {
     // Functions
     let compressed_sheet = (name) => {
         let id = name.toLowerCase()
-        event.create("compressed_" + id + "_sheet")
+        let new_id = ("compressed_" + id + "_sheet")
+        event.create(new_id)
+        .texture("kubejs:item/compressed_sheet/" + new_id)
     }
 
     let brick = (name) => {
         let id = name.toLowerCase()
-        event.create(id + "_brick")
+        let new_id = (id + "_brick")
+        event.create(new_id)
+        
     }
 
     let item = (name) => {
@@ -17,13 +21,17 @@ StartupEvents.registry('item', event => {
 
     let upgrade = (name, tooltip) => {
         let id = name.toLowerCase()
-        event.create(id + "_upgrade")
+        let new_id = (id + "_upgrade")
+        event.create(new_id)
+        .texture("kubejs:item/upgrade/" + new_id)
         .tooltip(tooltip)
     }
     
     let compound = (name) => {
         let id = name.toLowerCase()
-        event.create(id + "_compound")
+        let new_id = (id + "_compound")
+        event.create(new_id)
+        .texture("kubejs:item/compounds/" + new_id)
     }
 
 	// Main Items

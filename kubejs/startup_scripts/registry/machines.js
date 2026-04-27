@@ -2,8 +2,9 @@ StartupEvents.registry('block', event => {
 	// Main Block
     let machine = (name, layer) => {
         let id = name.toLowerCase()
-        event.create(id + '_machine')
-        .model('kubejs:block/' + id + '_machine')
+        let new_id = (id + '_machine')
+        event.create(new_id)
+        .model('kubejs:block/machines/' + new_id)
         .soundType('lantern')
         .hardness(3.0)
         .notSolid()

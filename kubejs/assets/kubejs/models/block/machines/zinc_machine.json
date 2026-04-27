@@ -1,6 +1,6 @@
 {
 	"format_version": "1.9.0",
-	"credit": "Made with Blockbench",
+	"credit": "Made by Neon, textures by Simibubi",
 	"texture_size": [32, 32],
 	"textures": {
 		"4": "kubejs:block/zinc_machine",

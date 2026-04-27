@@ -2,13 +2,14 @@ StartupEvents.registry('item', event => {
 
     let mechanism = (name) => {
         let id = name.toLowerCase()
-        event.create(
-            id + '_mechanism'
-        )
-        event.create(
-            'incomplete_' + id + '_mechanism',
-             'create:sequenced_assembly'
-            )
+        let complete_id = (id + "_mechanism")
+        let incomplete_id = ("incomplete_" + id + "_mechanism")
+
+        event.create(complete_id)
+        .texture("kubejs:item/mechanism/" + complete_id)
+        
+        event.create(incomplete_id, 'create:sequenced_assembly')
+        .texture("kubejs:item/mechanism/incomplete/" + incomplete_id)
 
     }
 
