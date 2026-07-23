@@ -52,6 +52,7 @@ StartupEvents.registry('item', event => {
     compressed_sheet("Copper") // Copper Backpack
     compressed_sheet("Iron") // Iron Backpack
     compressed_sheet("Gold") // Gold Backpack
+    compressed_sheet("Desh") // Rocket
     compressed_sheet("Calorite") // Jet Suits
     compressed_sheet("Ostrum") // Netherite Suits
     compressed_sheet("Steel") // Space Suits
