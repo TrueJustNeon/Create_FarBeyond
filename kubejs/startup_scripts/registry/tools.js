@@ -27,8 +27,6 @@ StartupEvents.registry('item', event => {
 
 // 2d tools
 tool_2d('Screwdriver', 'axe')
-
-// 3d tools
-tool_3d('Hammer', 'pickaxe')
+tool_2d('Hammer', 'pickaxe')
 
 })
